@@ -1,0 +1,83 @@
+:root {
+    --back-color:rgb(222,222,222);
+    --text-color: purple;
+ 
+}
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.child-1 {
+    background-color: purple;
+    
+    
+}
+nav ul li :hover {
+    cursor: pointer;
+    background-color:var(--back-color) ;
+    padding: 30px;
+    color: var(--text-color);
+}
+
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--back-color);
+    
+}
+ul li {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 20px;
+font-size: 20px;    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1 {
+    border: 1px solid var(--back-color);
+    border-radius: 30px;
+    background-color:var(--back-color) ;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+    margin-bottom: 30px;
+}
+input{
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:var(--back-color) ;
+    border-color: background-color:var(--back-color) ;;
+
+}
+textarea {
+    margin: 10px;
+    background-color:var(--back-color) ;
+    border-color: var(--back-color);
+    border-radius: 10px;
+    
+}
+button {
+    width: 100px;
+    padding: 10px;
+    margin-right: 28%;
+    border-radius: 10px;
+    background-color: #a306b6;
+    color: white;
+}
+
+footer {
+    border: 1px solid grey;
+    background-color: #AFA9A9;
+    color: white;
+    margin-top: 23px;
+    padding: 5px;
+}
